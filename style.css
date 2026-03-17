@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+:root {
+  --black: #1b1b1b;
+  --pink: #db7497;
+  --darker-cyan: #41bcbc;
+  --cyan: #5fe4e4;
+}
+
+::selection {
+  background: var(--cyan);
+  color: var(--black);
+  text-shadow: none;
+}
+
+body {
+  background: var(--black);
+  text-shadow: -2px 0px 2px var(--pink), 2px 0px 2px var(--darker-cyan);
+  color: var(--cyan);
+  font-weight: bold;
+  font-size: 32px;
+  padding: 32px;
+}
+
+pre {
+  font-family: VT323, monospace;
+}
